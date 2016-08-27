@@ -2,19 +2,57 @@
 
 <html lang="en">
 	<head>
-		<link rel="stylesheet" href="/static/simple.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+		<link rel="stylesheet" href="/static/simple_center.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="/static/main.js"></script>
+		<script src="//cdn.jsdelivr.net/sweep/latest/mainfile"></script>
+		<!-- I see why package managers exist. -->
 		<script>
-			$(document).ready(setTimeout(function(){
-				document.getElementById("demo").innerHTML = "<h1>The more things change...</h1>"
-			}, 5000))
+			var list_of_quotes = [
+				"<h1>What the hecky, man.</h1>",
+				"<h1>Freemasons run the country.</h1>",
+				"<h1>Rock and roll will never die. It is here to stay.</h1>",
+				"<h1>I will get by. I will survive.</h1>",
+				"<h1>Oi, dingus. You're a dingus.</h1>",
+				"<h1>Goddammit ahhhhhhhh</h1>",
+				"<h1>An unwarranted sense of optimism.</h1>",
+				"<h1>Please explain.</h1>",
+				"<h1>He he, wienie.</h1>"
+			]
+
+			var list_of_colours = [
+				"#452632",
+				"#91204D",
+				"#E4844A",
+				"#E8BF56",
+				"#E2F7CE",
+			]
+
+			function raise_opacity() {
+				var demo_item = document.querySelector("#papa")
+				var text = document.querySelector("#demo")
+				document.getElementById("demo").innerHTML = list_of_quotes[Math.floor(Math.random()*list_of_quotes.length)];
+				text.style.opacity = 100;
+				console.log("Heh!");
+				setTimeout(lower_opacity, 3000);
+			}
+			
+			function lower_opacity() {
+				var text = document.querySelector("#demo");
+				var background = document.querySelector("#papa");
+				text.style.opacity = 0;
+				sweep(background, "backgroundColor", background.style.backgroundColor, 
+				list_of_colours[Math.floor(Math.random()*list_of_colours.length)], {duration:  3000});
+				setTimeout(raise_opacity, 3000);
+			}
+
+			$(document).ready(setTimeout(raise_opacity, 1000))
 		</script>
 	</head>
-	<body>
-		<div id="demo">
-			<h1></h1>
+	<body id="papa" style="background-color:#a8f;">
+		<div id="demo" style="color:#000; opacity:0;" >
+			<h1>Test.</h1>
 		</div>
 	</body>
 </html>
-
