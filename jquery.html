@@ -22,11 +22,14 @@
 			]
 
 			var list_of_colours = [
-				"#452632",
-				"#91204D",
 				"#E4844A",
 				"#E8BF56",
 				"#E2F7CE",
+				"#93DFB8",
+				"#FFC8BA",
+				"#E3AAD6",
+				"#B5D8EB",
+				"#FFBDD8",
 			]
 
 			function raise_opacity() {
@@ -34,7 +37,6 @@
 				var text = document.querySelector("#demo")
 				document.getElementById("demo").innerHTML = list_of_quotes[Math.floor(Math.random()*list_of_quotes.length)];
 				text.style.opacity = 100;
-				console.log("Heh!");
 				setTimeout(lower_opacity, 3000);
 			}
 			
