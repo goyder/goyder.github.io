@@ -2,7 +2,8 @@
 
 <html lang="en">
 	<head>
-		<link rel="stylesheet" href="https://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+		<title>There is no need.</title>
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 		<link rel="stylesheet" href="/static/simple_center.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="/static/main.js"></script>
@@ -10,15 +11,25 @@
 		<!-- I see why package managers exist. -->
 		<script>
 			var list_of_quotes = [
-				"<h1>What the hecky, man.</h1>",
-				"<h1>Freemasons run the country.</h1>",
-				"<h1>Rock and roll will never die. It is here to stay.</h1>",
-				"<h1>I will get by. I will survive.</h1>",
-				"<h1>Oi, dingus. You're a dingus.</h1>",
-				"<h1>Goddammit ahhhhhhhh</h1>",
-				"<h1>An unwarranted sense of optimism.</h1>",
-				"<h1>Please explain.</h1>",
-				"<h1>He he, wienie.</h1>"
+			/*
+				"What the hecky, man.",
+				"Freemasons run the country.",
+				"Rock and roll will never die. It is here to stay.",
+				"I will get by. I will survive.",
+				"Oi, dingus. You're a dingus.",
+				"Goddammit ahhhhhhhh",
+				"An unwarranted sense of optimism.",
+				"Please explain.",
+				"He he, wienie.",
+				*/
+				"AHHHHHHHHHHHHHHHH",
+				"OH GOD WHY AHHHHHHH",
+				"ARGGGGHHHHHHH",
+				"ALL LIFE IS PAIN",
+				"GOD WHY AHHHH WHY",
+				"NOOOOOOOO WHYYYYYY",
+				"NO NO WHY WHY WHY WHY",
+
 			]
 
 			var list_of_colours = [
@@ -34,14 +45,14 @@
 
 			function raise_opacity() {
 				var demo_item = document.querySelector("#papa")
-				var text = document.querySelector("#demo")
-				document.getElementById("demo").innerHTML = list_of_quotes[Math.floor(Math.random()*list_of_quotes.length)];
+				var text = document.querySelector(".quote")
+				text.innerHTML = list_of_quotes[Math.floor(Math.random()*list_of_quotes.length)];
 				text.style.opacity = 100;
 				setTimeout(lower_opacity, 3000);
 			}
 			
 			function lower_opacity() {
-				var text = document.querySelector("#demo");
+				var text = document.querySelector(".quote");
 				var background = document.querySelector("#papa");
 				text.style.opacity = 0;
 				sweep(background, "backgroundColor", background.style.backgroundColor, 
@@ -53,8 +64,8 @@
 		</script>
 	</head>
 	<body id="papa" style="background-color:#a8f;">
-		<div id="demo" style="color:#000; opacity:0;" >
-			<h1>Test.</h1>
+		<div id="demo" style="color:#000; " >
+			<h1 class="quote" style="opacity: 0">Test.</h1>
 		</div>
 	</body>
 </html>

@@ -1,4 +1,4 @@
-html, body, div {
+html, body, div{
 	height: 100%;
 	width: 100%;
 }
@@ -9,5 +9,10 @@ div {
 	align-items: center;
 	transition: all 2s;
 	text-align: center;
+}
+
+h1 {
+	margin: 10%;
+	transition: all 2s;
 }
 
