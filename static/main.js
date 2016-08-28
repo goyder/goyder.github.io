@@ -14,7 +14,7 @@ function myFunction() {
 	document.getElementById("demo").innerHTML = list_of_quotes[Math.floor(Math.random() * list_of_quotes.length)];
 }
 
+// This is what happens when you kick off the page.
 $(document).ready(function(){
-  document.getElementById("demo").innerHTML = "<h1>Prepped, and ready!</h1>"
 })
 
