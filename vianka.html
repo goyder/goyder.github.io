@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<title>There is no need.</title>
+		<link rel="stylesheet" href="/static/pure-min.css">
+		<link rel="stylesheet" href="/static/simple_center.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="//cdn.jsdelivr.net/sweep/latest/mainfile"></script>
+		<!-- I see why package managers exist. -->
+		<script>
+			var list_of_quotes = [
+			/*
+				"What the hecky, man.",
+				"Freemasons run the country.",
+				"Rock and roll will never die. It is here to stay.",
+				"I will get by. I will survive.",
+				"Oi, dingus. You're a dingus.",
+				"Goddammit ahhhhhhhh",
+				"An unwarranted sense of optimism.",
+				"Please explain.",
+				"He he, wienie.",
+				*/
+				"AHHHHHHHHHHHHHHHH",
+				"OH GOD WHY AHHHHHHH",
+				"ARGGGGHHHHHHH",
+				"ALL LIFE IS PAIN",
+				"GOD WHY AHHHH WHY",
+				"NOOOOOOOO WHYYYYYY",
+				"NO NO WHY WHY WHY WHY",
+			]
+			var list_of_colours = [
+				"#E4844A",
+				"#E8BF56",
+				"#E2F7CE",
+				"#93DFB8",
+				"#FFC8BA",
+				"#E3AAD6",
+				"#B5D8EB",
+				"#FFBDD8",
+			]
+			function raise_opacity() {
+				var demo_item = document.querySelector("#papa")
+				var text = document.querySelector(".quote")
+				text.innerHTML = list_of_quotes[Math.floor(Math.random()*list_of_quotes.length)];
+				text.style.opacity = 100;
+				setTimeout(lower_opacity, 3000);
+			}
+			
+			function lower_opacity() {
+				var text = document.querySelector(".quote");
+				var background = document.querySelector("#papa");
+				text.style.opacity = 0;
+				sweep(background, "backgroundColor", background.style.backgroundColor, 
+				list_of_colours[Math.floor(Math.random()*list_of_colours.length)], {duration:  3000});
+				setTimeout(raise_opacity, 3000);
+			}
+			$(document).ready(setTimeout(raise_opacity, 1000))
+		</script>
+	</head>
+	<body id="papa" style="background-color:#a8f;">
+		<div id="demo" style="color:#000; " >
+			<h1 class="quote" style="opacity: 0">Test.</h1>
+		</div>
+	</body>
+</html>
