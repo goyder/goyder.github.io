@@ -1,20 +1,24 @@
-function popup() {
-	window.alert("No, wait. No I haven't!");
+function fade_in(id) {
+	id_obj = document.getElementById(id);
+	id_obj.style.opacity = 0;
+	id_obj.textContent = "There is literally nothing.";
+	id_obj.style.transitionDuration = "2s";
+	id_obj.style.opacity = 100;
+	window.setTimeout(function(){
+		fade_out(id);
+	}, 5000);
 }
 
-list_of_quotes = [
-	"Oh baby, it's a wild world.",
-	"It's hard to get by, just upon a smile.",
-	"This sure is a quote from a list, buddy!",
-	"Thai, Vietnamese, Japanese, Sushi Train, buddy!",
-	"Freemasons run the country."
-	]
-
-function myFunction() {
-	document.getElementById("demo").innerHTML = list_of_quotes[Math.floor(Math.random() * list_of_quotes.length)];
+function fade_out(id) {
+	id_obj = document.getElementById(id);
+	id_obj.style.opacity = 0;
 }
 
 // This is what happens when you kick off the page.
 $(document).ready(function(){
-})
+	window.setTimeout(function(){
+		fade_in("text");
+	}, 1000)
+}
+)
 
