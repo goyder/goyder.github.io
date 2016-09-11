@@ -17,9 +17,9 @@ body {
 	font-weight: 700;
 }
 
-.spacer{
-	padding: 100px 0px 100px;
+#image_spacer{
 	background: url("https://unsplash.it/1000/?random") no-repeat fixed center;
+	padding: 200px 0px;
 }
 
 #post p{
