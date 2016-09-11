@@ -1,0 +1,28 @@
+/* Generic styles. */
+
+body {
+	background: #542437;
+	font-family: "Helvetica", "Arial", Sans-Serif;
+	color: #222222;
+	margin: 60px auto;
+}
+
+.container {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+.heading {
+	font-size: 5.0rem;
+	font-weight: 700;
+}
+
+.spacer{
+	padding: 100px 0px 100px;
+	background: url("https://unsplash.it/1000/?random") no-repeat fixed center;
+}
+
+#post p{
+	font-family: "Georgia", Serif;
+}
+

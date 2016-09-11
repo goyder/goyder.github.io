@@ -7,9 +7,7 @@ function fade_in(id) {
 	$.when(window.setTimeout(function(){
 		fade_out(id);
 	}, 5000)
-			).then(function(){
-		console.log("fade-out complete!");
-	});
+			);
 }
 
 function fade_out(id) {
