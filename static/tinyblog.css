@@ -10,6 +10,7 @@ body {
 .container {
 	background: #FFFFFF;
 	padding: 20px;
+	width: 760px;
 }
 
 .heading {
@@ -18,7 +19,7 @@ body {
 }
 
 #image_spacer{
-	background: url("https://unsplash.it/1000/?random") no-repeat fixed center;
+	background: url("https://source.unsplash.com/GjNs11Xnmfg/1000x1500") no-repeat fixed center;
 	padding: 200px 0px;
 }
 
