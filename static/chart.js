@@ -37,22 +37,6 @@ $(function() {
 		.attr("transform", "translate(0," + height + ")")
 		.call(xAxis);
 
-	svg.selectAll('rect')
-		.data(data)
-		.enter()
-		.append('rect')
-		.attr('class', 'bar')
-		.attr('fill', '#C02942')
-		.attr('x', function(d) { return x(d); })
-		.attr('width', x.bandwidth()) 
-		.attr('y', function() { return height; })
-		.attr('height', 0)
-		.transition()
-			.delay(function(d,i) { return i*50; })
-			.duration(800)
-			.attr('y', function(d) { return y(d); })
-			.attr('height', function(d) { return height - y(d); });
-
 	svg.append("text")
 		.attr("text-anchor", "middle")
 		.attr("transform", "translate(" + (width/2) + "," + (height+(margin["bottom"]/2)) + ")")
@@ -63,5 +47,28 @@ $(function() {
 		.attr("text-anchor", "middle")
 		.attr("transform", "translate(" + (-margin["left"]/2) + "," + (height/2) + ") rotate(-90)")
 		.text("Seriously, what");
+
+	var chart = $("div#chart");
+
+	$(window).scroll(function(){
+		if (chart.visible()){
+			svg.selectAll('rect')
+				.data(data)
+				.enter()
+				.append('rect')
+				.attr('class', 'bar')
+				.attr('fill', '#C02942')
+				.attr('x', function(d) { return x(d); })
+				.attr('width', x.bandwidth()) 
+				.attr('y', function() { return height; })
+				.attr('height', 0)
+				.transition()
+					.delay(function(d,i) { return i*50; })
+					.duration(800)
+					.attr('y', function(d) { return y(d); })
+					.attr('height', function(d) { return height - y(d); });
+		}
+});
+
 
 });
