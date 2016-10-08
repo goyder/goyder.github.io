@@ -1,13 +1,42 @@
+var texture_unvisited = null;
+var texture_visited = null;
+
+
 $(function() {
 
 	var worldmap = new Datamap({
-		element: document.getElementById("chart"),
-		height: 450,
-		/*	
+		element: document.getElementById("chart"), height: 450,
 		fills: {
-			defaultFill: t.url()
+			defaultFill: 
+				function() {
+					if (texture_unvisited === null) {
+						svg = d3.selectAll(".datamaps-subunits");
+						var t = textures.lines().thicker().stroke("green").strokeWidth(2);
+						t.background("#AAAAAA");
+						svg.call(t);
+						texture_unvisited = t.url();
+						return t.url() ;
+					} else {
+						return texture_unvisited;
+					}
+				}
 		},
-		*/
+		
+		geographyConfig: {
+			highlightFillColor: function() { 
+				if (texture_visited === null) {
+					svg = d3.selectAll(".datamaps-subunits");
+					var t = textures.paths().d("waves").strokeWidth(2);
+					t.background("#AFAFAF");
+					svg.call(t);
+					texture_visited = t.url();
+					return t.url();
+				} else {
+					return texture_visited;
+				}
+			}
+		},
+
 		setProjection: function(element) {
 			var projection = d3.geo.mercator()
 				.center([9.993, 53.55])
@@ -16,29 +45,18 @@ $(function() {
 				.scale(1000);
 			var path = d3.geo.path()
 				.projection(projection);
-
 		return {path: path, projection: projection};
 		},
 	});
 
-	/*
 	// Relocate the texture URLs?
 	datamap = document.getElementsByClassName("datamaps-subunits")[0];
 	defs = document.getElementsByTagName("defs");
-	datamap.appendChild(defs[0]);
-	datamap.appendChild(defs[0]);
-	*/
+	//datamap.appendChild(defs[0]);
+	//datamap.appendChild(defs[0]);
 
-	svg = d3.selectAll(".datamaps-subunits");
-	//svg = d3.select("#chart");
-	var t = textures.lines().thicker().stroke("green").strokeWidth(2);
-	var texture_scroll = textures.lines().thicker().strokeWidth(3);
-	t.background("#AAAAAA");
-	texture_scroll.background("#AFAFAF");
-	svg.call(t);
-	svg.call(texture_scroll);
-	
+	//	
 	countries = d3.selectAll(".datamaps-subunit");
-	countries.style("fill", t.url());
 	countries.style("stroke", "000000");
+
 });
