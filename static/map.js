@@ -5,14 +5,14 @@ var texture_visited = null;
 $(function() {
 
 	var worldmap = new Datamap({
-		element: document.getElementById("chart"), height: 450,
+		element: document.getElementById("chart"), height: 550,
 		fills: {
 			defaultFill: 
 				function() {
 					if (texture_unvisited === null) {
 						svg = d3.selectAll(".datamaps-subunits");
-						var t = textures.lines().thicker().stroke("green").strokeWidth(2);
-						t.background("#AAAAAA");
+						var t = textures.lines().stroke("green").strokeWidth(2);
+						t.background("#555555");
 						svg.call(t);
 						texture_unvisited = t.url();
 						return t.url() ;
@@ -39,10 +39,10 @@ $(function() {
 
 		setProjection: function(element) {
 			var projection = d3.geo.mercator()
-				.center([9.993, 53.55])
+				.center([9.993, 54.55])
 				.rotate([0,0])
 				.translate([element.offsetWidth / 2, element.offsetHeight / 2])
-				.scale(1000);
+				.scale(1500);
 			var path = d3.geo.path()
 				.projection(projection);
 		return {path: path, projection: projection};
