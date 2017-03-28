@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Where is he.</title>
+<style>
+html {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.message {
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	font-weight: bold;
+	transition: all 3s;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="message" style="height:200px">
+	<h3 id="header" >Is Goyder offshore?</h3>
+	<h1 id="is_offshore" style="opacity:0;"></h1>
+	<h4 id="message" style="opacity:0;"></h4>
+</div>
+<script src="static/data.js"></script>
+<script src="static/jquery-3.1.1.js"></script>
+<script src="static/jquery.csv.js"></script>
+
+<script src="static/offshore.js"></script>
+</body>
+</html>
