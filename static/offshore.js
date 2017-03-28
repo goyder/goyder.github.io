@@ -130,7 +130,7 @@ $( function() {
 		window.setTimeout(function() {
 			fade_in("is_offshore", message);
 			var background = document.querySelector("body");
-			sweep(background, "backgroundColor", background.style.backGroundColor,
+			sweep(background, "backgroundColor", "#FFFFFF",
 				colour_choice, {duration: 1500});
 			window.setTimeout(function() {
 				fade_in("message_1", location_message);
