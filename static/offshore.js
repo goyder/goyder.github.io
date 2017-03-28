@@ -56,11 +56,11 @@ function get_message(current_day) {
 function get_colour(current_day) {
 	var colour;
 	if (current_day.Onshore == 0) {
-		var colour = "#2980b9";
+		var colour = "#3498db";
 	} else if (current_day.Onshore == 0.5) {
 		var colour = "#ecf0f1";
 	} else {
-		var colour = "#27ae60";
+		var colour = "#2ecc71";
 	}
 	return colour;	
 }
