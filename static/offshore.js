@@ -63,15 +63,20 @@ function get_next_change(reference_day, dates) {
 	};
 	
 	for (i = reference_day.Index + 1; i < dates.length; i++) {
+		console.log(dates[i].Onshore);
+		console.log(reference_day.Onshore);
 		if (dates[i].Onshore != reference_day.Onshore) {
 			return dates[i];
 		};
-	return null;
 	}
+	return null;
 	
 }
 
 $( function() {
+	/*
+	** Entry point for script
+	*/
 	console.log("hello, world!");
 	dates = $.csv.toObjects(data); // 'data' is defined by a previous JS import
 	for (i = 0; i < dates.length; i++ ) {
@@ -83,16 +88,39 @@ $( function() {
 	var is_offshore = false;
 	var current_date = new Date();
 	var current_day = match_day_to_data(current_date, dates)
-	
+	console.log("The current day is:");
+	console.log(dateFormat(next_change, "dddd, mmmm dS"));
+
+	// Set the location
+	if (current_day.Location != "") {
+		var location_message = "He's currently " + current_day.Location;
+	} else {
+		var location_message = "He's, y'know, around.";
+	};
+
+	// Set the next changes
 	var next_change = get_next_change(current_day, dates);
 	console.log(next_change);
+	console.log("The next date change is:");
+	console.log(dateFormat(next_change.Datetime, "dddd, mmmm dS"));
+	if (next_change.Onshore == 0) {
+		var next_change_message = "But he's heading off again on " + 
+			dateFormat(next_change.Datetime, "dddd, mmmm dS") + ".";
+	} else {
+		var next_change_message = "He's coming back onshore on " + 
+			dateFormat(next_change.Datetime, "dddd, mmmm dS") + ".";
+	}
 	
-	// Present the message
+	// Present the messages
 	var message = get_message(current_day);
 	
 	$(document).ready(function() {
 		window.setTimeout(function() {
 			fade_in("is_offshore", message);
+			window.setTimeout(function() {
+				fade_in("message_1", location_message);
+				fade_in("message_2", next_change_message);
+			}, 2500);
 		}, 2500);
 	})
 });
