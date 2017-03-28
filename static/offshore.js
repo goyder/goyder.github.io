@@ -53,6 +53,18 @@ function get_message(current_day) {
 	return message;
 }
 
+function get_colour(current_day) {
+	var colour;
+	if (current_day.Onshore == 0) {
+		var colour = "#2980b9";
+	} else if (current_day.Onshore == 0.5) {
+		var colour = "#ecf0f1";
+	} else {
+		var colour = "#27ae60";
+	}
+	return colour;	
+}
+
 function get_next_change(reference_day, dates) {
 	/*
 	** For a given day, when will the next significant change take place?
@@ -63,8 +75,6 @@ function get_next_change(reference_day, dates) {
 	};
 	
 	for (i = reference_day.Index + 1; i < dates.length; i++) {
-		console.log(dates[i].Onshore);
-		console.log(reference_day.Onshore);
 		if (dates[i].Onshore != reference_day.Onshore) {
 			return dates[i];
 		};
@@ -91,6 +101,10 @@ $( function() {
 	console.log("The current day is:");
 	console.log(dateFormat(next_change, "dddd, mmmm dS"));
 
+	// Present the messages
+	var message = get_message(current_day);
+	var colour_choice = get_colour(current_day);
+	
 	// Set the location
 	if (current_day.Location != "") {
 		var location_message = "He's currently " + current_day.Location;
@@ -111,12 +125,12 @@ $( function() {
 			dateFormat(next_change.Datetime, "dddd, mmmm dS") + ".";
 	}
 	
-	// Present the messages
-	var message = get_message(current_day);
-	
+
 	$(document).ready(function() {
 		window.setTimeout(function() {
 			fade_in("is_offshore", message);
+			sweep(document.querySelector("body"), "backgroundColor", background.style.backGroundColor,
+				colour_choice, {duration: 1500});
 			window.setTimeout(function() {
 				fade_in("message_1", location_message);
 				fade_in("message_2", next_change_message);
