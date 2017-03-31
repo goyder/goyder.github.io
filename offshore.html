@@ -2,14 +2,25 @@
 <html>
 <head>
 <title>Where is he.</title>
+<link rel="stylesheet" type="text/css" href="static/jquery.fullPage.css" />
+<link rel="stylesheet" type="text/css" href="static/monthly/monthly.css" />
 <style>
 html {
-	width: 70%;
+	width: 100%;
 	height: 100%;
 	margin: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.section {
+    text-align: center;
+}
+
+.monthly {
+    box-shadow: 0px 5px 40px #888888;
+    display: inline-block;
 }
 
 .message {
@@ -20,21 +31,49 @@ html {
 }
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body background-color="#FFFFFF">
-<div class="message" style="height:200px">
-	<h3 id="header" >Is Goyder offshore?</h3>
-	<h1 id="is_offshore" style="opacity:0;"></h1>
-	<h4 id="message_1" style="opacity:0;"></h4>
-	<h4 id="message_2" style="opacity:0"></h4>
-</div>
-<script src="static/sweep.js"></script>
-<script src="static/data.js"></script>
-<script src="static/jquery-3.1.1.js"></script>
-<script src="static/jquery.csv.js"></script>
-<script src="static/dateformat.js"></script>
-<script src="static/jquery.fullPage.min.js"></script>
+    <script src="static/sweep.js"></script>
+    <script src="static/data.js"></script>
+    <script src="static/jquery-3.1.1.js"></script>
+    <script src="static/jquery.csv.js"></script>
+    <script src="static/dateformat.js"></script>
+    <script src="static/jquery.fullPage.min.js"></script>
+    <script src="static/monthly/monthly.js"></script>
+    <script>
+        // Why does Xcode handle indentation so awfully?
+        $(document).ready(function() {
+                          $('#fullpage').fullpage({
+                              anchors: ['intro', 'calendar'],
+                                                  continuousVertical: true
+                                                  });
+                          $('#work_calendar').monthly({
+                                                      weekStart: 'Mon',
+                                                      maxWidth: "600px",
+                                                      });
+                          });
 
-<script src="static/offshore.js"></script>
-</body>
+                          </script>
+    <script src="static/offshore.js"></script>
+</head>
+<div id="fullpage">
+    
+<div class="section" id="section0">
+<div class="intro">
+<body background-color="#FFFFFF">
+        <div class="message" >
+            <h3 id="header" >Is Goyder offshore?</h3>
+            <h1 id="is_offshore" style="opacity:0;">Freemasons</h1>
+            <h3 id="message_1" style="opacity:0;">Run</h4>
+            <h3 id="message_2" style="opacity:0">The country</h4>
+        </div>
+    </body>
+</div>
+</div>
+<div class="section" id="section1">
+    <div class="message">
+        <div class="monthly" id="work_calendar"></div>
+    </div>
+</div>
+
+</div>
+
 </html>
