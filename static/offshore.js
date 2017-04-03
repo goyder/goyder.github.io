@@ -175,11 +175,11 @@ $( function() {
 	var event_list = generate_event_list(dates);
 	console.log(event_list);
 	$('#work_calendar').monthly({
-		weekStart: 	'Mon',
+		weekStart: 	"Mon",
 		maxWidth: 	"600px",
 		//mode:		"event",
-		//dataType:	"json",
-		//jsonUrl:	"events.json",
+		dataType:	"json",
+		jsonUrl:	"static/events.json",
 
 	});
 
