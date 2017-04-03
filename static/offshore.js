@@ -177,9 +177,9 @@ $( function() {
 	$('#work_calendar').monthly({
 		weekStart: 	'Mon',
 		maxWidth: 	"600px",
-		// mode:		"event",
-		dataType:	"json",
-		jsonUrl:	"static/events.json",
+		mode:		"event",
+		//dataType:	"json",
+		//jsonUrl:	"events.json",
 
 	});
 
