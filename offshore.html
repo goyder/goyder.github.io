@@ -39,19 +39,13 @@ html {
     <script src="static/jquery.fullPage.min.js"></script>
     <script src="static/monthly/monthly.js"></script>
     <script>
-        // Why does Xcode handle indentation so awfully?
         $(document).ready(function() {
-                          $('#fullpage').fullpage({
-                              anchors: ['intro', 'calendar'],
-                                                  continuousVertical: true
-                                                  });
-                          $('#work_calendar').monthly({
-                                                      weekStart: 'Mon',
-                                                      maxWidth: "600px",
-                                                      });
-                          });
-
-                          </script>
+            $('#fullpage').fullpage({
+                anchors: ['intro', 'calendar'],
+                continuousVertical: true
+                });
+            });
+    </script>
     <script src="static/offshore.js"></script>
 </head>
 <div id="fullpage">

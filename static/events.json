@@ -1,0 +1,24 @@
+{
+  "monthly": [
+    {
+      "id": 1,
+      "name": "Swing 1",
+      "startdate": "2017-3-15",
+      "enddate": "2017-3-27",
+      "starttime": "5:30",
+      "endtime": "23:59",
+      "color": "#27ae60",
+      "url": ""
+    },
+    {
+      "id": 2,
+      "name": "Swing 2",
+      "startdate": "2017-4-10",
+      "enddate": "2017-4-24",
+      "starttime": "5:30",
+      "endtime": "23:59",
+      "color": "#27ae60",
+      "url": ""
+    }
+  ]
+}

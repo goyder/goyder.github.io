@@ -1,3 +1,8 @@
+// What remains to be done?
+// 1. Arrows up and down to symbolise the calendar movements.
+// 2. Add the latest events.
+// 3. Update the calendar to something meaningful.
+
 
 
 function do_days_match(reference_date, date) {
@@ -16,6 +21,7 @@ function do_days_match(reference_date, date) {
 	}
 }
 
+
 function match_day_to_data(day, data) {
 	/*
 	** Given a set of data and a given day, match the two
@@ -33,12 +39,14 @@ function match_day_to_data(day, data) {
 	};
 }
 
+
 function fade_in(id, message) { 
 	id_obj = document.getElementById(id);
 	id_obj.textContent = message;
 	id_obj.style.transitionDuration = "2s";
 	id_obj.style.opacity = 100;
 }
+
 
 function get_message(current_day) {
 	var message;
@@ -53,6 +61,7 @@ function get_message(current_day) {
 	return message;
 }
 
+
 function get_colour(current_day) {
 	var colour;
 	if (current_day.Onshore == 0) {
@@ -64,6 +73,7 @@ function get_colour(current_day) {
 	}
 	return colour;	
 }
+
 
 function get_next_change(reference_day, dates) {
 	/*
@@ -80,7 +90,42 @@ function get_next_change(reference_day, dates) {
 		};
 	}
 	return null;
-	
+}
+
+
+function generate_event_list(dates) {
+	/*
+	** Work through the date data and generate a list of events.
+	*/ 
+	var events = [];
+	var swing_counter = 1;
+	var start_date, end_date;
+	var recording_event_flag = false;
+
+	for (i = 0; i < dates.length; i++) {
+		if (parseInt(dates[i].Onshore) != 1 && recording_event_flag == false) {
+			recording_event_flag = true;
+			start_date = dates[i].Datetime;
+		} 
+		else if (parseInt(dates[i].Onshore) == 1 && recording_event_flag == true) {
+			recording_event_flag = false;
+			end_date = dates[i-1].Datetime;
+			var event = {
+				"id": 			swing_counter,
+				"name": 		"Swing " + swing_counter,
+				"startdate":	dateFormat(start_date, "yyyy-m-dd"),
+				"enddate": 		dateFormat(end_date, "yyyy-m-dd"),
+				"starttime":	"05:30",
+				"endtime":		"23:59",
+				"color":		"#27ae60",
+				"url":			""
+			}
+			events.push(event);
+			swing_counter += 1;
+		} 
+	};
+
+	return {"monthly": events};
 }
 
 $( function() {
@@ -125,6 +170,18 @@ $( function() {
 			dateFormat(next_change.Datetime, "dddd, mmmm dS") + ".";
 	}
 	
+	// Parse our events for the calendar
+	console.log("Events list:");
+	var event_list = generate_event_list(dates);
+	console.log(event_list);
+	$('#work_calendar').monthly({
+		weekStart: 	'Mon',
+		maxWidth: 	"600px",
+		mode:		"event",
+		dataType:	"json",
+		jsonUrl:	"static/events.json",
+
+	});
 
 	$(document).ready(function() {
 		window.setTimeout(function() {
