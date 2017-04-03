@@ -174,14 +174,7 @@ $( function() {
 	console.log("Events list:");
 	var event_list = generate_event_list(dates);
 	console.log(event_list);
-	$('#work_calendar').monthly({
-		weekStart: 	"Mon",
-		maxWidth: 	"600px",
-		//mode:		"event",
-		dataType:	"json",
-		jsonUrl:	"static/events.json",
 
-	});
 
 	$(document).ready(function() {
 		window.setTimeout(function() {

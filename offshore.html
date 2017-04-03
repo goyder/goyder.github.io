@@ -43,7 +43,16 @@ html {
             $('#fullpage').fullpage({
                 anchors: ['intro', 'calendar'],
                 continuousVertical: true
-                });
+            });
+            $('#work_calendar').monthly({
+	        	weekStart: 	"Mon",
+     	    	maxWidth: 	"600px",
+    	    	mode:		"event",
+	        	dataType:	"json",
+	         	jsonUrl:	"static/events.json",
+
+	            });
+
             });
     </script>
     <script src="static/offshore.js"></script>
