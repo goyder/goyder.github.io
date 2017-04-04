@@ -16,6 +16,7 @@ html {
 
 .section {
     text-align: center;
+    position: relative;
 }
 
 .monthly {
@@ -28,6 +29,20 @@ html {
 	font-weight: bold;
 	transition: all 3s;
 	text-align: center;
+}
+
+#up-arrow {
+    transform: translate(-15px) rotate(-90deg);
+    top: 10px;
+    position: absolute;
+    opacity: 0.3;
+}
+
+#down-arrow {
+    transform: translate(-15px) rotate(90deg);
+    bottom: 10px;
+    position: absolute;
+    opacity: 0.3;
 }
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,8 +75,11 @@ html {
 <div id="fullpage">
     
 <div class="section" id="section0">
+    <img id="up-arrow"      src="static/offshore/next.svg" width="30px">
+    <img id="down-arrow"    src="static/offshore/next.svg" width="30px">
 <div class="intro">
 <body background-color="#FFFFFF">
+
         <div class="message" >
             <h3 id="header" >Is Goyder offshore?</h3>
             <h1 id="is_offshore" style="opacity:0;">Freemasons</h1>
@@ -72,6 +90,9 @@ html {
 </div>
 </div>
 <div class="section" id="section1">
+    
+    <img id="up-arrow"      src="static/offshore/next.svg" width="30px">
+    <img id="down-arrow"    src="static/offshore/next.svg" width="30px">
     <div class="message">
         <div class="monthly" id="work_calendar"></div>
     </div>

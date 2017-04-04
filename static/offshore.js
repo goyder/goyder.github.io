@@ -1,7 +1,7 @@
 // What remains to be done?
 // 1. Arrows up and down to symbolise the calendar movements.
-// 2. Add the latest events.
-// 3. Update the calendar to something meaningful.
+// 2. Add the latest events - done.
+// 3. Update the calendar to something meaningful - done.
 
 
 
