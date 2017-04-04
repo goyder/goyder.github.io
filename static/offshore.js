@@ -115,8 +115,8 @@ function generate_event_list(dates) {
 				"name": 		"Swing " + swing_counter,
 				"startdate":	dateFormat(start_date, "yyyy-m-dd"),
 				"enddate": 		dateFormat(end_date, "yyyy-m-dd"),
-				"starttime":	"05:30",
-				"endtime":		"23:59",
+				"starttime":	"00:00",
+				"endtime":		"13:00",
 				"color":		"#27ae60",
 				"url":			""
 			}

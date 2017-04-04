@@ -1,4 +1,4 @@
-data=`Index,Datetime,Onshore,Location
+Index,Datetime,Onshore,Location
 0,2017-03-15,0,on the Nganhurra.
 1,2017-03-16,0,on the Nganhurra.
 2,2017-03-17,0,on the Nganhurra.
@@ -375,4 +375,4 @@ data=`Index,Datetime,Onshore,Location
 373,2018-03-23,0,on the Ngujima-Yin.
 374,2018-03-24,0,on the Ngujima-Yin.
 375,2018-03-25,0,on the Ngujima-Yin.
-376,2018-03-26,0.5,`
+376,2018-03-26,0.5,

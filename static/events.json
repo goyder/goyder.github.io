@@ -1,24 +1,134 @@
 {
-  "monthly": [
-    {
-      "id": 1,
-      "name": "Swing 1",
-      "startdate": "2017-3-15",
-      "enddate": "2017-3-27",
-      "starttime": "5:30",
-      "endtime": "23:59",
-      "color": "#27ae60",
-      "url": ""
-    },
-    {
-      "id": 2,
-      "name": "Swing 2",
-      "startdate": "2017-4-10",
-      "enddate": "2017-4-24",
-      "starttime": "5:30",
-      "endtime": "23:59",
-      "color": "#27ae60",
-      "url": ""
-    }
-  ]
+    "monthly": [
+                {
+                "id": 1,
+                "name": "Swing 1",
+                "startdate": "2017-3-15",
+                "enddate": "2017-3-27",
+                "starttime": "00:00",
+                "endtime": "13:00",
+                "color": "#27ae60",
+                "url": ""
+                },
+                {
+                "id": 2,
+                "name": "Swing 2",
+                "startdate": "2017-4-10",
+                "enddate": "2017-4-24",
+                "starttime": "00:00",
+                "endtime": "13:00",
+                "color": "#27ae60",
+                "url": ""
+                },
+                {
+                "id": 3,
+                "name": "Swing 3",
+                "startdate": "2017-5-01",
+                "enddate": "2017-5-15",
+                "starttime": "00:00",
+                "endtime": "13:00",
+                "color": "#27ae60",
+                "url": ""
+                },
+                {
+                "id": 4,
+                "name": "Swing 4",
+                "startdate": "2017-6-05",
+                "enddate": "2017-6-19",
+                "starttime": "00:00",
+                "endtime": "13:00",
+                "color": "#27ae60",
+                "url": ""
+                },
+                {
+                "id": 5,
+                "name": "Swing 5",
+                "startdate": "2017-7-03",
+                "enddate": "2017-7-17",
+                "starttime": "00:00",
+                "endtime": "13:00",
+                "color": "#27ae60",
+                "url": ""
+                },
+                {
+                "id": 6,
+                "name": "Swing 6",
+                "startdate": "2017-7-31",
+                "enddate": "2017-8-14",
+                "starttime": "00:00",
+                "endtime": "13:00",
+                "color": "#27ae60",
+                "url": ""
+                },
+                {
+                "id": 7,
+                "name": "Swing 7",
+                "startdate": "2017-8-28",
+                "enddate": "2017-9-11",
+                "starttime": "00:00",
+                "endtime": "13:00",
+                "color": "#27ae60",
+                "url": ""
+                },
+                {
+                "id": 8,
+                "name": "Swing 8",
+                "startdate": "2017-9-25",
+                "enddate": "2017-10-09",
+                "starttime": "00:00",
+                "endtime": "13:00",
+                "color": "#27ae60",
+                "url": ""
+                },
+                {
+                "id": 9,
+                "name": "Swing 9",
+                "startdate": "2017-10-23",
+                "enddate": "2017-11-06",
+                "starttime": "00:00",
+                "endtime": "13:00",
+                "color": "#27ae60",
+                "url": ""
+                },
+                {
+                "id": 10,
+                "name": "Swing 10",
+                "startdate": "2017-11-20",
+                "enddate": "2017-12-04",
+                "starttime": "00:00",
+                "endtime": "13:00",
+                "color": "#27ae60",
+                "url": ""
+                },
+                {
+                "id": 11,
+                "name": "Swing 11",
+                "startdate": "2017-12-18",
+                "enddate": "2018-1-01",
+                "starttime": "00:00",
+                "endtime": "13:00",
+                "color": "#27ae60",
+                "url": ""
+                },
+                {
+                "id": 12,
+                "name": "Swing 12",
+                "startdate": "2018-1-15",
+                "enddate": "2018-1-29",
+                "starttime": "00:00",
+                "endtime": "13:00",
+                "color": "#27ae60",
+                "url": ""
+                },
+                {
+                "id": 13,
+                "name": "Swing 13",
+                "startdate": "2018-2-12",
+                "enddate": "2018-2-26",
+                "starttime": "00:00",
+                "endtime": "13:00",
+                "color": "#27ae60",
+                "url": ""
+                }
+                ]
 }
