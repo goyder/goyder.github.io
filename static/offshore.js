@@ -109,14 +109,14 @@ function generate_event_list(dates) {
 		} 
 		else if (parseInt(dates[i].Onshore) == 1 && recording_event_flag == true) {
 			recording_event_flag = false;
-			end_date = dates[i-1].Datetime;
+			end_date = dates[i-2].Datetime;
 			var event = {
 				"id": 			swing_counter,
 				"name": 		"Swing " + swing_counter,
 				"startdate":	dateFormat(start_date, "yyyy-m-dd"),
 				"enddate": 		dateFormat(end_date, "yyyy-m-dd"),
 				"starttime":	"00:00",
-				"endtime":		"13:00",
+				"endtime":		"24:00",
 				"color":		"#27ae60",
 				"url":			""
 			}
