@@ -106,9 +106,9 @@ data=`Index,Datetime,Onshore,Location
 104,2017-06-27,1,
 105,2017-06-28,1,
 106,2017-06-29,1,
-107,2017-06-30,1,on the Ngujima-Yin.
-108,2017-07-01,1,on the Ngujima-Yin.
-109,2017-07-02,1,on the Ngujima-Yin.
+107,2017-06-30,0,on the Ngujima-Yin.
+108,2017-07-01,0,on the Ngujima-Yin.
+109,2017-07-02,0,on the Ngujima-Yin.
 110,2017-07-03,0,on the Ngujima-Yin.
 111,2017-07-04,0,on the Ngujima-Yin.
 112,2017-07-05,0,on the Ngujima-Yin.
