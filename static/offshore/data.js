@@ -106,9 +106,9 @@ data=`Index,Datetime,Onshore,Location
 104,2017-06-27,1,
 105,2017-06-28,1,
 106,2017-06-29,1,
-107,2017-06-30,1,
-108,2017-07-01,1,
-109,2017-07-02,1,
+107,2017-06-30,1,on the Ngujima-Yin.
+108,2017-07-01,1,on the Ngujima-Yin.
+109,2017-07-02,1,on the Ngujima-Yin.
 110,2017-07-03,0,on the Ngujima-Yin.
 111,2017-07-04,0,on the Ngujima-Yin.
 112,2017-07-05,0,on the Ngujima-Yin.
@@ -120,20 +120,20 @@ data=`Index,Datetime,Onshore,Location
 118,2017-07-11,0,on the Ngujima-Yin.
 119,2017-07-12,0,on the Ngujima-Yin.
 120,2017-07-13,0,on the Ngujima-Yin.
-121,2017-07-14,0,on the Ngujima-Yin.
-122,2017-07-15,0,on the Ngujima-Yin.
-123,2017-07-16,0,on the Ngujima-Yin.
-124,2017-07-17,0.5,
-125,2017-07-18,1,
-126,2017-07-19,1,
-127,2017-07-20,1,
-128,2017-07-21,1,
-129,2017-07-22,1,
-130,2017-07-23,1,
-131,2017-07-24,1,
-132,2017-07-25,1,
-133,2017-07-26,1,
-134,2017-07-27,1,
+121,2017-07-14,0.5,
+122,2017-07-15,1,in the Land of Freedom.
+123,2017-07-16,1,in the Land of Freedom.
+124,2017-07-17,1,in the Land of Freedom.
+125,2017-07-18,1,in the Land of Freedom.
+126,2017-07-19,1,in the Land of Freedom.
+127,2017-07-20,1,in the Land of Freedom.
+128,2017-07-21,1,in the Land of Freedom.
+129,2017-07-22,1,in the Land of Freedom.
+130,2017-07-23,1,in the Land of Freedom.
+131,2017-07-24,1,in the Land of Freedom.
+132,2017-07-25,1,in the Land of Freedom.
+133,2017-07-26,1,in the Land of Freedom.
+134,2017-07-27,1,in the Land of Freedom.
 135,2017-07-28,1,
 136,2017-07-29,1,
 137,2017-07-30,1,
@@ -165,10 +165,10 @@ data=`Index,Datetime,Onshore,Location
 163,2017-08-25,1,
 164,2017-08-26,1,
 165,2017-08-27,1,
-166,2017-08-28,0,on the Ngujima-Yin.
-167,2017-08-29,0,on the Ngujima-Yin.
-168,2017-08-30,0,on the Ngujima-Yin.
-169,2017-08-31,0,on the Ngujima-Yin.
+166,2017-08-28,1,
+167,2017-08-29,1,
+168,2017-08-30,1,
+169,2017-08-31,1,
 170,2017-09-01,0,on the Ngujima-Yin.
 171,2017-09-02,0,on the Ngujima-Yin.
 172,2017-09-03,0,on the Ngujima-Yin.
@@ -179,20 +179,20 @@ data=`Index,Datetime,Onshore,Location
 177,2017-09-08,0,on the Ngujima-Yin.
 178,2017-09-09,0,on the Ngujima-Yin.
 179,2017-09-10,0,on the Ngujima-Yin.
-180,2017-09-11,0.5,
-181,2017-09-12,1,
-182,2017-09-13,1,
-183,2017-09-14,1,
-184,2017-09-15,1,
+180,2017-09-11,0,on the Ngujima-Yin.
+181,2017-09-12,0,on the Ngujima-Yin.
+182,2017-09-13,0,on the Ngujima-Yin.
+183,2017-09-14,0,on the Ngujima-Yin.
+184,2017-09-15,0.5,
 185,2017-09-16,1,
 186,2017-09-17,1,
 187,2017-09-18,1,
 188,2017-09-19,1,
 189,2017-09-20,1,
 190,2017-09-21,1,
-191,2017-09-22,1,
-192,2017-09-23,1,
-193,2017-09-24,1,
+191,2017-09-22,0,on the Ngujima-Yin.
+192,2017-09-23,0,on the Ngujima-Yin.
+193,2017-09-24,0,on the Ngujima-Yin.
 194,2017-09-25,0,on the Ngujima-Yin.
 195,2017-09-26,0,on the Ngujima-Yin.
 196,2017-09-27,0,on the Ngujima-Yin.
@@ -204,10 +204,10 @@ data=`Index,Datetime,Onshore,Location
 202,2017-10-03,0,on the Ngujima-Yin.
 203,2017-10-04,0,on the Ngujima-Yin.
 204,2017-10-05,0,on the Ngujima-Yin.
-205,2017-10-06,0,on the Ngujima-Yin.
-206,2017-10-07,0,on the Ngujima-Yin.
-207,2017-10-08,0,on the Ngujima-Yin.
-208,2017-10-09,0.5,
+205,2017-10-06,0.5,
+206,2017-10-07,1,
+207,2017-10-08,1,
+208,2017-10-09,1,
 209,2017-10-10,1,
 210,2017-10-11,1,
 211,2017-10-12,1,
@@ -218,9 +218,9 @@ data=`Index,Datetime,Onshore,Location
 216,2017-10-17,1,
 217,2017-10-18,1,
 218,2017-10-19,1,
-219,2017-10-20,1,
-220,2017-10-21,1,
-221,2017-10-22,1,
+219,2017-10-20,0,on the Ngujima-Yin.
+220,2017-10-21,0,on the Ngujima-Yin.
+221,2017-10-22,0,on the Ngujima-Yin.
 222,2017-10-23,0,on the Ngujima-Yin.
 223,2017-10-24,0,on the Ngujima-Yin.
 224,2017-10-25,0,on the Ngujima-Yin.
@@ -232,10 +232,10 @@ data=`Index,Datetime,Onshore,Location
 230,2017-10-31,0,on the Ngujima-Yin.
 231,2017-11-01,0,on the Ngujima-Yin.
 232,2017-11-02,0,on the Ngujima-Yin.
-233,2017-11-03,0,on the Ngujima-Yin.
-234,2017-11-04,0,on the Ngujima-Yin.
-235,2017-11-05,0,on the Ngujima-Yin.
-236,2017-11-06,0.5,
+233,2017-11-03,0.5,
+234,2017-11-04,1,
+235,2017-11-05,1,
+236,2017-11-06,1,
 237,2017-11-07,1,
 238,2017-11-08,1,
 239,2017-11-09,1,
@@ -246,9 +246,9 @@ data=`Index,Datetime,Onshore,Location
 244,2017-11-14,1,
 245,2017-11-15,1,
 246,2017-11-16,1,
-247,2017-11-17,1,
-248,2017-11-18,1,
-249,2017-11-19,1,
+247,2017-11-17,0,on the Ngujima-Yin.
+248,2017-11-18,0,on the Ngujima-Yin.
+249,2017-11-19,0,on the Ngujima-Yin.
 250,2017-11-20,0,on the Ngujima-Yin.
 251,2017-11-21,0,on the Ngujima-Yin.
 252,2017-11-22,0,on the Ngujima-Yin.
@@ -260,10 +260,10 @@ data=`Index,Datetime,Onshore,Location
 258,2017-11-28,0,on the Ngujima-Yin.
 259,2017-11-29,0,on the Ngujima-Yin.
 260,2017-11-30,0,on the Ngujima-Yin.
-261,2017-12-01,0,on the Ngujima-Yin.
-262,2017-12-02,0,on the Ngujima-Yin.
-263,2017-12-03,0,on the Ngujima-Yin.
-264,2017-12-04,0.5,
+261,2017-12-01,0.5,
+262,2017-12-02,1,
+263,2017-12-03,1,
+264,2017-12-04,1,
 265,2017-12-05,1,
 266,2017-12-06,1,
 267,2017-12-07,1,
@@ -274,9 +274,9 @@ data=`Index,Datetime,Onshore,Location
 272,2017-12-12,1,
 273,2017-12-13,1,
 274,2017-12-14,1,
-275,2017-12-15,1,
-276,2017-12-16,1,
-277,2017-12-17,1,
+275,2017-12-15,0,on the Ngujima-Yin.
+276,2017-12-16,0,on the Ngujima-Yin.
+277,2017-12-17,0,on the Ngujima-Yin.
 278,2017-12-18,0,on the Ngujima-Yin.
 279,2017-12-19,0,on the Ngujima-Yin.
 280,2017-12-20,0,on the Ngujima-Yin.
@@ -288,10 +288,10 @@ data=`Index,Datetime,Onshore,Location
 286,2017-12-26,0,on the Ngujima-Yin.
 287,2017-12-27,0,on the Ngujima-Yin.
 288,2017-12-28,0,on the Ngujima-Yin.
-289,2017-12-29,0,on the Ngujima-Yin.
-290,2017-12-30,0,on the Ngujima-Yin.
-291,2017-12-31,0,on the Ngujima-Yin.
-292,2018-01-01,0.5,
+289,2017-12-29,0.5,
+290,2017-12-30,1,
+291,2017-12-31,1,
+292,2018-01-01,1,
 293,2018-01-02,1,
 294,2018-01-03,1,
 295,2018-01-04,1,
@@ -302,9 +302,9 @@ data=`Index,Datetime,Onshore,Location
 300,2018-01-09,1,
 301,2018-01-10,1,
 302,2018-01-11,1,
-303,2018-01-12,1,
-304,2018-01-13,1,
-305,2018-01-14,1,
+303,2018-01-12,0,on the Ngujima-Yin.
+304,2018-01-13,0,on the Ngujima-Yin.
+305,2018-01-14,0,on the Ngujima-Yin.
 306,2018-01-15,0,on the Ngujima-Yin.
 307,2018-01-16,0,on the Ngujima-Yin.
 308,2018-01-17,0,on the Ngujima-Yin.
@@ -316,10 +316,10 @@ data=`Index,Datetime,Onshore,Location
 314,2018-01-23,0,on the Ngujima-Yin.
 315,2018-01-24,0,on the Ngujima-Yin.
 316,2018-01-25,0,on the Ngujima-Yin.
-317,2018-01-26,0,on the Ngujima-Yin.
-318,2018-01-27,0,on the Ngujima-Yin.
-319,2018-01-28,0,on the Ngujima-Yin.
-320,2018-01-29,0.5,
+317,2018-01-26,0.5,
+318,2018-01-27,1,
+319,2018-01-28,1,
+320,2018-01-29,1,
 321,2018-01-30,1,
 322,2018-01-31,1,
 323,2018-02-01,1,
@@ -330,9 +330,9 @@ data=`Index,Datetime,Onshore,Location
 328,2018-02-06,1,
 329,2018-02-07,1,
 330,2018-02-08,1,
-331,2018-02-09,1,
-332,2018-02-10,1,
-333,2018-02-11,1,
+331,2018-02-09,0,on the Ngujima-Yin.
+332,2018-02-10,0,on the Ngujima-Yin.
+333,2018-02-11,0,on the Ngujima-Yin.
 334,2018-02-12,0,on the Ngujima-Yin.
 335,2018-02-13,0,on the Ngujima-Yin.
 336,2018-02-14,0,on the Ngujima-Yin.
@@ -344,10 +344,10 @@ data=`Index,Datetime,Onshore,Location
 342,2018-02-20,0,on the Ngujima-Yin.
 343,2018-02-21,0,on the Ngujima-Yin.
 344,2018-02-22,0,on the Ngujima-Yin.
-345,2018-02-23,0,on the Ngujima-Yin.
-346,2018-02-24,0,on the Ngujima-Yin.
-347,2018-02-25,0,on the Ngujima-Yin.
-348,2018-02-26,0.5,
+345,2018-02-23,0.5,
+346,2018-02-24,1,
+347,2018-02-25,1,
+348,2018-02-26,1,
 349,2018-02-27,1,
 350,2018-02-28,1,
 351,2018-03-01,1,
@@ -358,9 +358,9 @@ data=`Index,Datetime,Onshore,Location
 356,2018-03-06,1,
 357,2018-03-07,1,
 358,2018-03-08,1,
-359,2018-03-09,1,
-360,2018-03-10,1,
-361,2018-03-11,1,
+359,2018-03-09,0,on the Ngujima-Yin.
+360,2018-03-10,0,on the Ngujima-Yin.
+361,2018-03-11,0,on the Ngujima-Yin.
 362,2018-03-12,0,on the Ngujima-Yin.
 363,2018-03-13,0,on the Ngujima-Yin.
 364,2018-03-14,0,on the Ngujima-Yin.
@@ -372,7 +372,7 @@ data=`Index,Datetime,Onshore,Location
 370,2018-03-20,0,on the Ngujima-Yin.
 371,2018-03-21,0,on the Ngujima-Yin.
 372,2018-03-22,0,on the Ngujima-Yin.
-373,2018-03-23,0,on the Ngujima-Yin.
-374,2018-03-24,0,on the Ngujima-Yin.
-375,2018-03-25,0,on the Ngujima-Yin.
-376,2018-03-26,0.5,`
+373,2018-03-23,0.5,
+374,2018-03-24,1,
+375,2018-03-25,1,
+376,2018-03-26,1,`
