@@ -1,4 +1,4 @@
-data=""Index,Datetime,Onshore,Location" + 
+data="Index,Datetime,Onshore,Location" + 
 "0,2017-03-15,0,on the Nganhurra." + 
 "1,2017-03-16,0,on the Nganhurra." + 
 "2,2017-03-17,0,on the Nganhurra." + 
