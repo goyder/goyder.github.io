@@ -218,24 +218,24 @@ data="Index,Datetime,Onshore,Location\r\n" +
 "216,2017-10-17,1,\r\n" + 
 "217,2017-10-18,1,\r\n" + 
 "218,2017-10-19,1,\r\n" + 
-"219,2017-10-20,0,on the Ngujima-Yin.\r\n" + 
-"220,2017-10-21,0,on the Ngujima-Yin.\r\n" + 
-"221,2017-10-22,0,on the Ngujima-Yin.\r\n" + 
-"222,2017-10-23,0,on the Ngujima-Yin.\r\n" + 
-"223,2017-10-24,0,on the Ngujima-Yin.\r\n" + 
-"224,2017-10-25,0,on the Ngujima-Yin.\r\n" + 
-"225,2017-10-26,0,on the Ngujima-Yin.\r\n" + 
-"226,2017-10-27,0,on the Ngujima-Yin.\r\n" + 
-"227,2017-10-28,0,on the Ngujima-Yin.\r\n" + 
-"228,2017-10-29,0,on the Ngujima-Yin.\r\n" + 
-"229,2017-10-30,0,on the Ngujima-Yin.\r\n" + 
-"230,2017-10-31,0,on the Ngujima-Yin.\r\n" + 
-"231,2017-11-01,0,on the Ngujima-Yin.\r\n" + 
-"232,2017-11-02,0,on the Ngujima-Yin.\r\n" + 
-"233,2017-11-03,0.5,\r\n" + 
-"234,2017-11-04,1,\r\n" + 
-"235,2017-11-05,1,\r\n" + 
-"236,2017-11-06,1,\r\n" + 
+"219,2017-10-20,1,\r\n" + 
+"220,2017-10-21,1,\r\n" + 
+"221,2017-10-22,1,\r\n" + 
+"222,2017-10-23,0,on the Nganhurra.\r\n" + 
+"223,2017-10-24,0,on the Nganhurra.\r\n" + 
+"224,2017-10-25,0,on the Nganhurra.\r\n" + 
+"225,2017-10-26,0,on the Nganhurra.\r\n" + 
+"226,2017-10-27,0,on the Nganhurra.\r\n" + 
+"227,2017-10-28,0,on the Nganhurra.\r\n" + 
+"228,2017-10-29,0,on the Nganhurra.\r\n" + 
+"229,2017-10-30,0,on the Nganhurra.\r\n" + 
+"230,2017-10-31,0,on the Nganhurra.\r\n" + 
+"231,2017-11-01,0,on the Nganhurra.\r\n" + 
+"232,2017-11-02,0,on the Nganhurra.\r\n" + 
+"233,2017-11-03,0,on the Nganhurra.\r\n" + 
+"234,2017-11-04,0,on the Nganhurra.\r\n" + 
+"235,2017-11-05,0,on the Nganhurra.\r\n" + 
+"236,2017-11-06,0.5,\r\n" + 
 "237,2017-11-07,1,\r\n" + 
 "238,2017-11-08,1,\r\n" + 
 "239,2017-11-09,1,\r\n" + 
@@ -246,49 +246,49 @@ data="Index,Datetime,Onshore,Location\r\n" +
 "244,2017-11-14,1,\r\n" + 
 "245,2017-11-15,1,\r\n" + 
 "246,2017-11-16,1,\r\n" + 
-"247,2017-11-17,0,on the Ngujima-Yin.\r\n" + 
-"248,2017-11-18,0,on the Ngujima-Yin.\r\n" + 
-"249,2017-11-19,0,on the Ngujima-Yin.\r\n" + 
-"250,2017-11-20,0,on the Ngujima-Yin.\r\n" + 
-"251,2017-11-21,0,on the Ngujima-Yin.\r\n" + 
-"252,2017-11-22,0,on the Ngujima-Yin.\r\n" + 
-"253,2017-11-23,0,on the Ngujima-Yin.\r\n" + 
-"254,2017-11-24,0,on the Ngujima-Yin.\r\n" + 
-"255,2017-11-25,0,on the Ngujima-Yin.\r\n" + 
-"256,2017-11-26,0,on the Ngujima-Yin.\r\n" + 
-"257,2017-11-27,0,on the Ngujima-Yin.\r\n" + 
-"258,2017-11-28,0,on the Ngujima-Yin.\r\n" + 
-"259,2017-11-29,0,on the Ngujima-Yin.\r\n" + 
-"260,2017-11-30,0,on the Ngujima-Yin.\r\n" + 
-"261,2017-12-01,0.5,\r\n" + 
-"262,2017-12-02,1,\r\n" + 
-"263,2017-12-03,1,\r\n" + 
-"264,2017-12-04,1,\r\n" + 
+"247,2017-11-17,1,\r\n" + 
+"248,2017-11-18,1,\r\n" + 
+"249,2017-11-19,1,\r\n" + 
+"250,2017-11-20,0,on the Nganhurra.\r\n" + 
+"251,2017-11-21,0,on the Nganhurra.\r\n" + 
+"252,2017-11-22,0,on the Nganhurra.\r\n" + 
+"253,2017-11-23,0,on the Nganhurra.\r\n" + 
+"254,2017-11-24,0,on the Nganhurra.\r\n" + 
+"255,2017-11-25,0,on the Nganhurra.\r\n" + 
+"256,2017-11-26,0,on the Nganhurra.\r\n" + 
+"257,2017-11-27,0,on the Nganhurra.\r\n" + 
+"258,2017-11-28,0,on the Nganhurra.\r\n" + 
+"259,2017-11-29,0,on the Nganhurra.\r\n" + 
+"260,2017-11-30,0,on the Nganhurra.\r\n" + 
+"261,2017-12-01,0,on the Nganhurra.\r\n" + 
+"262,2017-12-02,0,on the Nganhurra.\r\n" + 
+"263,2017-12-03,0,on the Nganhurra.\r\n" + 
+"264,2017-12-04,0.5,\r\n" + 
 "265,2017-12-05,1,\r\n" + 
 "266,2017-12-06,1,\r\n" + 
 "267,2017-12-07,1,\r\n" + 
 "268,2017-12-08,1,\r\n" + 
 "269,2017-12-09,1,\r\n" + 
 "270,2017-12-10,1,\r\n" + 
-"271,2017-12-11,1,\r\n" + 
-"272,2017-12-12,1,\r\n" + 
-"273,2017-12-13,1,\r\n" + 
-"274,2017-12-14,1,\r\n" + 
-"275,2017-12-15,0,on the Ngujima-Yin.\r\n" + 
-"276,2017-12-16,0,on the Ngujima-Yin.\r\n" + 
-"277,2017-12-17,0,on the Ngujima-Yin.\r\n" + 
-"278,2017-12-18,0,on the Ngujima-Yin.\r\n" + 
-"279,2017-12-19,0,on the Ngujima-Yin.\r\n" + 
-"280,2017-12-20,0,on the Ngujima-Yin.\r\n" + 
-"281,2017-12-21,0,on the Ngujima-Yin.\r\n" + 
-"282,2017-12-22,0,on the Ngujima-Yin.\r\n" + 
-"283,2017-12-23,0,on the Ngujima-Yin.\r\n" + 
-"284,2017-12-24,0,on the Ngujima-Yin.\r\n" + 
-"285,2017-12-25,0,on the Ngujima-Yin.\r\n" + 
-"286,2017-12-26,0,on the Ngujima-Yin.\r\n" + 
-"287,2017-12-27,0,on the Ngujima-Yin.\r\n" + 
-"288,2017-12-28,0,on the Ngujima-Yin.\r\n" + 
-"289,2017-12-29,0.5,\r\n" + 
+"271,2017-12-11,0,on the Nganhurra.\r\n" + 
+"272,2017-12-12,0,on the Nganhurra.\r\n" + 
+"273,2017-12-13,0,on the Nganhurra.\r\n" + 
+"274,2017-12-14,0,on the Nganhurra.\r\n" + 
+"275,2017-12-15,0,on the Nganhurra.\r\n" + 
+"276,2017-12-16,0,on the Nganhurra.\r\n" + 
+"277,2017-12-17,0,on the Nganhurra.\r\n" + 
+"278,2017-12-18,0.5,\r\n" + 
+"279,2017-12-19,1,\r\n" + 
+"280,2017-12-20,1,\r\n" + 
+"281,2017-12-21,1,\r\n" + 
+"282,2017-12-22,1,\r\n" + 
+"283,2017-12-23,1,\r\n" + 
+"284,2017-12-24,1,\r\n" + 
+"285,2017-12-25,1,\r\n" + 
+"286,2017-12-26,1,\r\n" + 
+"287,2017-12-27,1,\r\n" + 
+"288,2017-12-28,1,\r\n" + 
+"289,2017-12-29,1,\r\n" + 
 "290,2017-12-30,1,\r\n" + 
 "291,2017-12-31,1,\r\n" + 
 "292,2018-01-01,1,\r\n" + 
@@ -299,24 +299,24 @@ data="Index,Datetime,Onshore,Location\r\n" +
 "297,2018-01-06,1,\r\n" + 
 "298,2018-01-07,1,\r\n" + 
 "299,2018-01-08,1,\r\n" + 
-"300,2018-01-09,1,\r\n" + 
-"301,2018-01-10,1,\r\n" + 
-"302,2018-01-11,1,\r\n" + 
-"303,2018-01-12,0,on the Ngujima-Yin.\r\n" + 
-"304,2018-01-13,0,on the Ngujima-Yin.\r\n" + 
-"305,2018-01-14,0,on the Ngujima-Yin.\r\n" + 
-"306,2018-01-15,0,on the Ngujima-Yin.\r\n" + 
-"307,2018-01-16,0,on the Ngujima-Yin.\r\n" + 
-"308,2018-01-17,0,on the Ngujima-Yin.\r\n" + 
-"309,2018-01-18,0,on the Ngujima-Yin.\r\n" + 
-"310,2018-01-19,0,on the Ngujima-Yin.\r\n" + 
-"311,2018-01-20,0,on the Ngujima-Yin.\r\n" + 
-"312,2018-01-21,0,on the Ngujima-Yin.\r\n" + 
-"313,2018-01-22,0,on the Ngujima-Yin.\r\n" + 
-"314,2018-01-23,0,on the Ngujima-Yin.\r\n" + 
-"315,2018-01-24,0,on the Ngujima-Yin.\r\n" + 
-"316,2018-01-25,0,on the Ngujima-Yin.\r\n" + 
-"317,2018-01-26,0.5,\r\n" + 
+"300,2018-01-09,0,on the Nganhurra.\r\n" + 
+"301,2018-01-10,0,on the Nganhurra.\r\n" + 
+"302,2018-01-11,0,on the Nganhurra.\r\n" + 
+"303,2018-01-12,0,on the Nganhurra.\r\n" + 
+"304,2018-01-13,0,on the Nganhurra.\r\n" + 
+"305,2018-01-14,0,on the Nganhurra.\r\n" + 
+"306,2018-01-15,0,on the Nganhurra.\r\n" + 
+"307,2018-01-16,0,on the Nganhurra.\r\n" + 
+"308,2018-01-17,0,on the Nganhurra.\r\n" + 
+"309,2018-01-18,0,on the Nganhurra.\r\n" + 
+"310,2018-01-19,0,on the Nganhurra.\r\n" + 
+"311,2018-01-20,0,on the Nganhurra.\r\n" + 
+"312,2018-01-21,0,on the Nganhurra.\r\n" + 
+"313,2018-01-22,0.5,\r\n" +
+"314,2018-01-23,1,\r\n" + 
+"315,2018-01-24,1,\r\n" + 
+"316,2018-01-25,1,\r\n" + 
+"317,2018-01-26,1,\r\n" + 
 "318,2018-01-27,1,\r\n" + 
 "319,2018-01-28,1,\r\n" + 
 "320,2018-01-29,1,\r\n" + 
@@ -326,28 +326,28 @@ data="Index,Datetime,Onshore,Location\r\n" +
 "324,2018-02-02,1,\r\n" + 
 "325,2018-02-03,1,\r\n" + 
 "326,2018-02-04,1,\r\n" + 
-"327,2018-02-05,1,\r\n" + 
-"328,2018-02-06,1,\r\n" + 
-"329,2018-02-07,1,\r\n" + 
-"330,2018-02-08,1,\r\n" + 
-"331,2018-02-09,0,on the Ngujima-Yin.\r\n" + 
-"332,2018-02-10,0,on the Ngujima-Yin.\r\n" + 
-"333,2018-02-11,0,on the Ngujima-Yin.\r\n" + 
-"334,2018-02-12,0,on the Ngujima-Yin.\r\n" + 
-"335,2018-02-13,0,on the Ngujima-Yin.\r\n" + 
-"336,2018-02-14,0,on the Ngujima-Yin.\r\n" + 
-"337,2018-02-15,0,on the Ngujima-Yin.\r\n" + 
-"338,2018-02-16,0,on the Ngujima-Yin.\r\n" + 
-"339,2018-02-17,0,on the Ngujima-Yin.\r\n" + 
-"340,2018-02-18,0,on the Ngujima-Yin.\r\n" + 
-"341,2018-02-19,0,on the Ngujima-Yin.\r\n" + 
-"342,2018-02-20,0,on the Ngujima-Yin.\r\n" + 
-"343,2018-02-21,0,on the Ngujima-Yin.\r\n" + 
-"344,2018-02-22,0,on the Ngujima-Yin.\r\n" + 
-"345,2018-02-23,0.5,\r\n" + 
-"346,2018-02-24,1,\r\n" + 
-"347,2018-02-25,1,\r\n" + 
-"348,2018-02-26,1,\r\n" + 
+"327,2018-02-05,0,on the Nganhurra (for the last time).\r\n" +
+"328,2018-02-06,0,on the Nganhurra (for the last time).\r\n" +
+"329,2018-02-07,0,on the Nganhurra (for the last time).\r\n" +
+"330,2018-02-08,0,on the Nganhurra (for the last time).\r\n" +
+"331,2018-02-09,0,on the Nganhurra (for the last time).\r\n" +
+"332,2018-02-10,0,on the Nganhurra (for the last time).\r\n" +
+"333,2018-02-11,0,on the Nganhurra (for the last time).\r\n" +
+"334,2018-02-12,0,on the Nganhurra (for the last time).\r\n" +
+"335,2018-02-13,0,on the Nganhurra (for the last time).\r\n" +
+"336,2018-02-14,0,on the Nganhurra (for the last time).\r\n" +
+"337,2018-02-15,0,on the Nganhurra (for the last time).\r\n" +
+"338,2018-02-16,0,on the Nganhurra (for the last time).\r\n" +
+"339,2018-02-17,0,on the Nganhurra (for the last time).\r\n" +
+"340,2018-02-18,0,on the Nganhurra (for the last time).\r\n" +
+"341,2018-02-19,0,on the Nganhurra (for the last time).\r\n" +
+"342,2018-02-20,0,on the Nganhurra (for the last time).\r\n" +
+"343,2018-02-21,0,on the Nganhurra (for the last time).\r\n" +
+"344,2018-02-22,0,on the Nganhurra (for the last time).\r\n" +
+"345,2018-02-23,0,on the Nganhurra (for the last time).\r\n" + 
+"346,2018-02-24,0,on the Nganhurra (for the last time).\r\n" +
+"347,2018-02-25,0,on the Nganhurra (for the last time).\r\n" +
+"348,2018-02-26,0.5,\r\n" + 
 "349,2018-02-27,1,\r\n" + 
 "350,2018-02-28,1,\r\n" + 
 "351,2018-03-01,1,\r\n" + 
@@ -358,21 +358,17 @@ data="Index,Datetime,Onshore,Location\r\n" +
 "356,2018-03-06,1,\r\n" + 
 "357,2018-03-07,1,\r\n" + 
 "358,2018-03-08,1,\r\n" + 
-"359,2018-03-09,0,on the Ngujima-Yin.\r\n" + 
-"360,2018-03-10,0,on the Ngujima-Yin.\r\n" + 
-"361,2018-03-11,0,on the Ngujima-Yin.\r\n" + 
-"362,2018-03-12,0,on the Ngujima-Yin.\r\n" + 
-"363,2018-03-13,0,on the Ngujima-Yin.\r\n" + 
-"364,2018-03-14,0,on the Ngujima-Yin.\r\n" + 
-"365,2018-03-15,0,on the Ngujima-Yin.\r\n" + 
-"366,2018-03-16,0,on the Ngujima-Yin.\r\n" + 
-"367,2018-03-17,0,on the Ngujima-Yin.\r\n" + 
-"368,2018-03-18,0,on the Ngujima-Yin.\r\n" + 
-"369,2018-03-19,0,on the Ngujima-Yin.\r\n" + 
-"370,2018-03-20,0,on the Ngujima-Yin.\r\n" + 
-"371,2018-03-21,0,on the Ngujima-Yin.\r\n" + 
-"372,2018-03-22,0,on the Ngujima-Yin.\r\n" + 
-"373,2018-03-23,0.5,\r\n" + 
-"374,2018-03-24,1,\r\n" + 
-"375,2018-03-25,1,\r\n" + 
-"376,2018-03-26,1,"
+"359,2018-03-09,1,\r\n" +
+"360,2018-03-10,1,\r\n" +
+"361,2018-03-11,1,\r\n" +
+"362,2018-03-12,1,\r\n" +
+"363,2018-03-13,1,\r\n" +
+"364,2018-03-14,1,\r\n" +
+"365,2018-03-15,1,\r\n" +
+"366,2018-03-16,1,\r\n" +
+"367,2018-03-17,1,\r\n" +
+"368,2018-03-18,1,\r\n" +
+"369,2018-03-19,1,\r\n" +
+"370,2018-03-20,1,\r\n" +
+"371,2018-03-21,1,\r\n" +
+"372,2018-03-22,1,\r\n"
